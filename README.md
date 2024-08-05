@@ -31,11 +31,12 @@ A Python web crawler script designed to explore web pages, find video files, and
    ```bash
    pip install -r requirements.txt
    ```
+
 ## RUN
 
    ```bash
-      ./run.sh
-      ```
+   ./run.sh
+   ```
 
 ## Usage
 
