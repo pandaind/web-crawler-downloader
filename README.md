@@ -20,8 +20,8 @@ A Python web crawler script designed to explore web pages, find video files, and
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/web-crawler.git
-   cd web-crawler
+   git clone https://github.com/pandaind/web-crawler-downloader.git
+   cd web-crawler-downloader
    ```
 
 2. **Install Required Libraries**
@@ -31,6 +31,11 @@ A Python web crawler script designed to explore web pages, find video files, and
    ```bash
    pip install -r requirements.txt
    ```
+## RUN
+
+   ```bash
+      ./run.sh
+      ```
 
 ## Usage
 
