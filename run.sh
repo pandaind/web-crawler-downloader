@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Prompt for the Url
+read -p "Enter url: " url
 
 # Prompt for the keywords
 read -p "Enter keywords (space-separated): " keywords
@@ -25,5 +27,5 @@ explore_tag=${explore_tag:-a:href}
 
 
 # Run the Python script with the provided inputs
-python crawler.py "https://deephot.link/?s=$keywords" "$keywords" $keywords --max_depth "$max_depth"  --download_tag "$download_tag" --explore_tag "$explore_tag"
+python crawler.py "$url" "$keywords" $keywords --max_depth "$max_depth"  --download_tag "$download_tag" --explore_tag "$explore_tag"
 
